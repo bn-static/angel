@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Angel Skin Care</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=195310000651099";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <nav id="navbar" class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-btn">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/index.php"><img src="assets/img/logo.png"></a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-btn">
+        <ul id="nav" class="nav navbar-nav">
+          <li><a href="/index.php">Home <span class="sr-only">(current)</span></a></li>
+          <li class="dropdown"><a href="/treatments.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Treatments</a>
+          <ul class="dropdown-menu dropdown-menu-left">
+            <li><a href="/treatments.php">Cosmetic Treatments</a></li>
+            <li><a href="/skin-treatments.php">Skin Treatments</a></li>
+            <li><a href="/vaginal.php">Vaginal Treatment</a></li>
+          </ul></li>
+          <li><a href="/about.php">About Us</a></li>
+          <li><a href="/contact.php">Contact Us</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="content">
+  <h1 class="page-title lato text-center">Cosmetic Treatments</h1>
+    <div class="container">
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/nanno.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title" id="ipl">IPL (အလင်းလေဆာကုထုံး) <small class="badge">30% Off</small> </h2>
+          
+          <table class="table">
+            <tr>
+              <th width="70%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>Photo Rejuvenation 
+              <p>အသားဖြူဝင်းစေခြင်း</p></td>
+              <td><img src="assets/img/photofacial.png" width="90" height="60" ></td>
+              <td><img src="assets/img/photofacial-after.png" width="90" height="60" ></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Acne<p>ဝက်ခြံပိုးသတ်စေခြင်း</p></td>
+              <td><img src="assets/img/acne-ipl.png" width="90" height="60" ></td>
+              <td><img src="assets/img/acne-ipl-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+            <td>Vascular Lesion
+              <p>သွေးကြောမျှင်များကုသခြင်း</p></td>
+            <td><img src="assets/img/Vascular-Lesion.png" width="90" height="60" ></td>
+              <td><img src="assets/img/Vascular-Lesion-after.png" width="90" height="60" ></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Hair Removal<p>အမွေးအမျှင်များဖယ်ရှားပေးခြင်း</p></td>
+              <td><img src="assets/img/hair-removal-ipl.png" width="90" height="60" ></td>
+              <td><img src="assets/img/hair-removal-ipl-after.png" width="90" height="60" ></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/co2-machine.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="co2">CO2 Fractional Laser<small class="badge">30% Off</small> </h2>
+          <p class="treatment-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <table class="table">
+            <tr>
+              <th width="60%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>To remove moles, warts
+<p>မှဲ့,ကြွက်နို့ဖျက်ခြင်း</p></td>
+              <td><img src="assets/img/mole-removal.png" width="90" height="60" ></td>
+              <td><img src="assets/img/mole-removal-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>To reduce wrinkles
+<p>အရေးအကြောင်းဖျောက်ခြင်း</p></td>
+              <td><img src="assets/img/wrinkle.png" width="90" height="60" ></td>
+              <td><img src="assets/img/wrinkle-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>To diminish depressed scar
+<p>အနာရွတ်ဖျောက်ခြင်း</p></td>
+              <td><img src="assets/img/scar.png" width="90" height="60" ></td>
+              <td><img src="assets/img/scar-after.png" width="90" height="60" ></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/cryolipolysis.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="cryolipolysis">Cryolipolysis </h2>          
+          <table class="table">
+            <tr>
+              <th width="60%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>Unnecessary fat removal (အဆီကျစေရန် ) <p>to reduce body weight (သွယ်လျလှပစေရန်)</p>
+              </td>
+              <td><img src="assets/img/fat.png" width="90" height="60" ></td>
+              <td><img src="assets/img/fat-after.png" width="90" height="60" ></td>
+            </tr>
+            
+          </table>
+        </div>
+      </div>
+      <hr>
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/derma-pen.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="derma">Derma Pen<small class="badge">30% Off</small> </h2>
+          <table class="table">
+            <tr>
+              <th width="70%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>to treat scar <p>အမာရွတ်ကုသခြင်း</p></td>
+              <td><img src="assets/img/scar2.png" width="90" height="60" ></td>
+              <td><img src="assets/img/scar2-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>to treat scar <p>အကြောပြတ်ကုသခြင်း</p></td>
+              <td><img src="assets/img/sketch.png" width="90" height="60" ></td>
+              <td><img src="assets/img/sketch-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>to reduce fine lines <p>အရေးအကြောင်းများ ကုသခြင်း</p></td>
+              <td><img src="assets/img/fineline.png" width="90" height="60" ></td>
+              <td><img src="assets/img/fineline-2.png" width="90" height="60" ></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/skin-karma.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="skin-karma">Skin Karma</h2>
+          <table class="table">
+            <tr>
+              <th width="70%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>For moisturizing skin <p>အသားအရေစိုစွတ်နူညံ့စေခြင်း</p></td>
+              <td><img src="assets/img/moisturizing.png" width="90" height="60" ></td>
+              <td><img src="assets/img/moisturizing-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>to reduce freckles <p>အမဲစက်ကင်းစေခြင်း</p></td>
+              <td><img src="assets/img/freckles.png" width="90" height="60" ></td>
+              <td><img src="assets/img/freckles-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>Brighter skin <p>အသားအရေ ဝင်းမွတ်တောက်ပစေခြင်း</p></td>
+              <td><img src="assets/img/brighter-skin.png" width="90" height="60" ></td>
+              <td><img src="assets/img/brighter-skin-after.png" width="90" height="60" ></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/steamer.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="steamer">Steamer</h2>
+          <table class="table">
+            <tr>
+              <th width="70%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>For moisturizing skin <p>အသားရေစိုစွတ်နူညံ့စေခြင်း</p></td>
+              <td><img src="assets/img/moisturizing.png" width="90" height="60" ></td>
+              <td><img src="assets/img/moisturizing-after.png" width="90" height="60" ></td>
+            <tr>
+              <td>smoother skin <p>အသားအရေနူညံ့စေခြင်း</p></td>
+              <td><img src="assets/img/smooth.png" width="90" height="60" ></td>
+              <td><img src="assets/img/smooth-after.png" width="90" height="60" ></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/chemical-peel.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="chemical-peels">Chemical Peels to treat</h2>
+          <table class="table">
+            <tr>
+              <th width="70%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>Acne <p>(ဝက်ခြံ)</p></td>
+              <td><img src="assets/img/acne-ipl.png" width="90" height="60" ></td>
+              <td><img src="assets/img/acne-ipl-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>Age spots <p>အသက်ကြီးလျှင်ပေါ်လာသော အစက်များဖယ်ရှားပေးခြင်း</p></td>
+              <td><img src="assets/img/age.png" width="90" height="60" ></td>
+              <td><img src="assets/img/age-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>Dull complexion <p>အသားရောင်ညစ်နွမ်းခြင်း</p></td>
+              <td><img src="assets/img/dull.png" width="90" height="60" ></td>
+              <td><img src="assets/img/dull-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>Fine lines <p>အရေးအကြောင်းများ</p> </td>
+              <td><img src="assets/img/fineline.png" width="90" height="60" ></td>
+              <td><img src="assets/img/fineline-2.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>Freckles <p>မှဲ့ခြောက်များ</p></td>
+              <td><img src="assets/img/freckles.png" width="90" height="60" ></td>
+              <td><img src="assets/img/freckles-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>Melasma <p>တင်းတိတ်များ</p></td>
+              <td><img src="assets/img/melasma.png" width="90" height="60" ></td>
+              <td><img src="assets/img/melasma-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>Rough Feeling skin <p>အသားအရေကြမ်းတမ်းခြင်း</p></td>
+              <td><img src="assets/img/rough.png" width="90" height="60" ></td>
+              <td><img src="assets/img/rough-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>Sun damage skin <p>နေရောင်ကြောင့် အသားအရေ ပျက်စီးခြင်း</p></td>
+              <td><img src="assets/img/sun.png" width="90" height="60" ></td>
+              <td><img src="assets/img/sun-after.png" width="90" height="60" ></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/inotopheresis.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="inotopheresis">Inotopheresis /phonopheresis</h2>
+          <table class="table">
+            <tr>
+              <th width="70%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>မျက်နှာအာဟာရဖြည့်သွင်းခြင်း</td>
+              <td><!-- <img src="assets/img/dummy-2.png" width="90" height="60" > --></td>
+              <td><!-- <img src="assets/img/dummy-2.png" width="90" height="60" > --></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/mesotherapy-machine.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="mesotherapy">Mesotherapy</h2>
+          <table class="table">
+            <tr>
+              <th width="70%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>Collagen injection to Face မျက်နှာအတွင်း အာဟာရထိုးသွင်းခြင်း</td>
+              <td><img src="assets/img/mesotherapy.png" width="90" height="60" ></td>
+              <td><img src="assets/img/mesotherapy-after.png" width="90" height="60" ></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/botox-machine.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="botox">Botox</h2>
+          <table class="table">
+            <tr>
+              <th width="70%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>to reduce corinkle <p>မျက်နှာအရေးအကြောင်းများ</p></td>
+              <td><img src="assets/img/botox.png" width="90" height="60" ></td>
+              <td><img src="assets/img/botox-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>to make V Shape Face <p>V shape မျက်နှာ ပြုလုပ်ပေးခြင်း</p></td>
+              <td><img src="assets/img/v-shape.png" width="90" height="60" ></td>
+              <td><img src="assets/img/v-shape-after.png" width="90" height="60" ></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/filler.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="filler">Filler</h2>
+          <table class="table">
+            <tr>
+              <th width="70%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>to diminish signs of aging <p>အရေးအကြောင်းများလျော့စေခြင်း</p></td>
+              <td><img src="assets/img/aging.png" width="90" height="60" ></td>
+              <td><img src="assets/img/aging-after.png" width="90" height="60" ></td>
+            </tr>
+            <tr>
+              <td>to make facial symmetrical <p>မျက်နှာညီညာအောင် ဖြည့်တင်းပေးခြင်း</p></td>
+              <td><img src="assets/img/symmetrical.png" width="90" height="60" ></td>
+              <td><img src="assets/img/symmetrical-after.png" width="90" height="60" ></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/glutathione.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="glytathione">Glutathione injection</h2>
+          <table class="table">
+            <tr>
+              <th width="70%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>For skin whitening <p>အသားရေဖြူစေခြင်း</p></td>
+              <td><img src="assets/img/whitening.png" width="90" height="60" ></td>
+              <td><img src="assets/img/whitening-after.png" width="90" height="60" ></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <div class="treatment-item row">
+        <div class="treatment-imgs col-md-4">
+          <div class="lightGallery">
+            <div class="treatment-thumb">
+              <img src="assets/img/eyeslash-machine.png">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h2 class="treatment-title lato" id="eye-drop">Eye drop</h2>
+          <table class="table">
+            <tr>
+              <th width="70%">Name</th>
+              <th width="15%">Before</th>
+              <th width="15%">After</th>
+            </tr>
+            <tr>
+              <td>For prolongation of eyelashes <p>မျက်တောင်ကော့ဆင်းရှည်လျစေခြင်း</p></td>
+              <td><img src="assets/img/eyelish.png" width="90" height="60" ></td>
+              <td><img src="assets/img/eyelish-after.png" width="90" height="60" ></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <p class="alert alert-info">အလှအပကုထုံးများအတွက် အရေပြားအထူးကုဆရာဝန်ကြီးနှင့် အခမဲ့ဆွေးနွေးနိုင်ပါသည်။</p>
+
+
+
+    </div>
+  </div>
+<footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7">
+          <h4 class="footer-title lato">About Us</h4>
+          <p class="footer-text">Angel Skin & Aesthetic Clinic သည် မော်လမြိုင် မြို့တွင်ဖွင့်လှစ်ထားသော မျက်နှာနှင့် အရည်ပြားဆိုင်ရာရောဂါများကို ခေတ်မီစက်ကြီးများဖြင့် ကုသပေးနေသော ဆေးခန်းဖြစ်ပါသည်။</p>
+          <a href="about.php">Learn More <i class="glyphicon glyphicon-chevron-right"></i></a>
+        </div>
+        <div class="col-sm-5">
+          <div class="fb-page" data-href="https://www.facebook.com/angelclinic" data-width="457" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+          Developed by 
+            <a href="http://biznet.com.mm" target="_blank"><img src="assets/img/biznet-logo.png"></a>
+          </div>
+          <div class="col-sm-6 text-right">
+            <small class="copyright-text">copyright &copy; 2015 Angel Face</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/site.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            new WOW().init();
+            $( '#main-slider' ).sliderPro({
+              width: '100%',
+              height: '478',
+              arrows: false,
+              buttons: false,
+              autoplay: false,
+              autoScaleLayers: false,
+              imageScaleMode: 'contain',
+              breakpoints: {
+                500: {
+                  thumbnailWidth: 120,
+                  thumbnailHeight: 50
+                }
+              }
+            });
+
+            $("#contact-form").submit(function() {
+
+                var url = "https://fwdform.herokuapp.com/user/0fb70578-0aef-4735-83a8-a1e89b0f0aac"; // the script where you handle the form input.
+
+                $.ajax({
+                   type: "POST",
+                   url: url,
+                   data: $("#contact-form").serialize(), // serializes the form's elements.
+                   success: function(data)
+                   {
+                       $('#contact-form').prepend('<div class="alert alert-info">Message Sent</div>')
+                    },
+                    error: function()
+                    {
+                      $('#contact-form').prepend('<div class="alert alert-danger">Message Not Sent</div>')
+                    }
+             });
+
+                return false; // avoid to execute the actual submit of the form.
+            });
+        });
+    </script>
+  </body>
+</html>
