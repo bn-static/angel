@@ -160,7 +160,7 @@ p {
 .sp-slides{position:relative;-webkit-backface-visibility:hidden;-webkit-perspective:1000}
 .sp-slide{position:absolute}
 .sp-image-container{overflow:hidden}
-.sp-image{position:relative;display:block;border:none;margin-bottom: 0 !important;margin-top: 0 !important;}
+.sp-image{position:relative;display:block;margin-left: 0 !important; margin-right: 0 !important; width: 100% !important;border:none;margin-bottom: 0 !important;margin-top: 0 !important;}
 .sp-no-js{overflow:hidden;max-width:100%}
 .sp-thumbnails-container{position:relative;overflow:hidden}
 .sp-bottom-thumbnails,
