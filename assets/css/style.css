@@ -258,4 +258,16 @@ p {
 		padding: 5px;
 		margin-top: 5px;
 	}
+	#main-slider .purple-slide {
+		background-color: #a983b9 !important;
+	}
+	#main-slider p.slider-desc {
+		top: 55% !important;
+	}
+	.top-highlight-bar .certificate {
+		padding-top: 20px;
+	}
+	.top-highlight-bar .certificate h2 {
+		line-height: 22px;
+	}
 }
