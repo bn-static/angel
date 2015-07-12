@@ -124,6 +124,7 @@ p {
 .treatment-thumb img {
 	border-radius: 10px;
 	cursor: pointer;
+	border: 3px solid #82b440;
 }
 .lightGallery img {
 	cursor: pointer;
