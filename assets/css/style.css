@@ -4,7 +4,7 @@
 body {
 	font-family:  Tharlon, Yunghkio, sans-serif;
 	font-size: 14px;
-	background: #f3f9f2;
+	background: ;
 	overflow-x: hidden;
 	background: url('../img/pattern.png');
 }
@@ -102,7 +102,7 @@ p {
 }
 .treatments-list .treatment-item {
 	border-bottom: 1px solid #eee;
-	min-height: 194px;
+	min-height: 208px;
 }
 .treatments-list .treatment-item.max-height {
 	min-height: 475px;
