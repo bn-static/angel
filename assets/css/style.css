@@ -6,6 +6,7 @@ body {
 	font-size: 14px;
 	background: #f3f9f2;
 	overflow-x: hidden;
+	background: url('../img/pattern.png');
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family:  Tharlon, Yunghkio, sans-serif;
@@ -73,11 +74,12 @@ p {
 	margin-bottom: 20px;
 }
 .block {
-	background: #fff;
+	/*background: #fff;*/
 	padding: 30px 0;
 }
 .highlight {
 	padding: 40px 0;
+	background: #fff;
 }
 .cosmetic-treatments .treatment-item.min-height {
 	min-height: 430px;
@@ -90,6 +92,7 @@ p {
 	position: absolute;
 	width: 1px;
 	top: 0;
+
 }
 .treatments-list > [class*='col-']:first-child:before {
 	display: none;
@@ -99,14 +102,17 @@ p {
 }
 .treatments-list .treatment-item {
 	border-bottom: 1px solid #eee;
-	min-height: 247px;
+	min-height: 194px;
 }
 .treatments-list .treatment-item.max-height {
 	min-height: 475px;
 }
+.skin-treatments .treatment-item {
+	min-height: 80px !important;
+}
 .treatment-item a {
 	display: block;
-	padding: 30px 20px;
+	padding: 10px 20px;
 	color: #666;
 }
 .treatment-item a:hover {
@@ -223,7 +229,7 @@ p {
 .top-highlight-bar h2 {
 	margin: 0;
 	color: #fff;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
 	line-height: 75px;
 }
