@@ -6,13 +6,20 @@ body {
 	font-size: 14px;
 	background: ;
 	overflow-x: hidden;
-	background: url('../img/pattern.png');
+	background: #233823;
+	color: #CEF9CE;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family:  Tharlon, Yunghkio, sans-serif;
 }
 h3 {
 	line-height: 34px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	border-color: #334E33;
+}
+hr {
+	border-color: #334E33;
 }
 img {
 	max-width: 100%;
@@ -27,7 +34,7 @@ p {
 	font-family: 'Lato', Tharlon, Yunghkio;
 }
 #navbar {
-	background: #fff;
+	background: #5cb85c;
 	border-bottom: none;
 	border-radius: 0;
 	box-shadow: 0 0 8px rgba(0,0,0,0.2);
@@ -37,13 +44,17 @@ p {
 .navbar-brand {
 	padding-top: 0;
 }
+#nav .dropdown-menu li a {
+	color: #333;
+}
 #nav li a {
-	border-right: 1px solid #e3e3e3;
+	border-right: 1px solid #7AE67A;
 	text-transform: uppercase;
 	font-size: 14px;
 	padding-left: 20px;
 	padding-right: 20px;
 	font-family: 'Lato';
+	color: #fff;
 }
 #nav li:last-child a {
 	border-right: none;
@@ -80,12 +91,13 @@ p {
 .highlight {
 	padding: 40px 0;
 	background: #fff;
+	color: #333;
 }
 .cosmetic-treatments .treatment-item.min-height {
 	min-height: 430px;
 }
 .treatments-list > [class*='col-']:before {
-	background: #eee;
+	background: #334E33;
 	bottom: 0;
 	content: " ";
 	left: 0;
@@ -101,7 +113,7 @@ p {
 	background: transparent;
 }
 .treatments-list .treatment-item {
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #334E33;
 	min-height: 208px;
 }
 .treatments-list .treatment-item.max-height {
@@ -112,11 +124,11 @@ p {
 }
 .treatment-item a {
 	display: block;
-	color: #333;
+	color: #CEF9CE;
 }
 .treatment-item a:hover {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 }
 .treatment-item a:hover h3 {
 	text-decoration: none;
@@ -130,6 +142,7 @@ p {
 	border-radius: 10px;
 	cursor: pointer;
 	border: 3px solid #82b440;
+	margin-top: 30px;
 }
 .lightGallery img {
 	cursor: pointer;
@@ -196,6 +209,7 @@ p {
 	line-height: 30px;
 	max-width: 600px;
 	font-family:  Tharlon, Yunghkio;
+	color: #333;
 }
 #main-slider p .learn-more {
 	margin-top: 20px;
