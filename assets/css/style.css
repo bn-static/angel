@@ -40,6 +40,7 @@ p {
 	box-shadow: 0 0 8px rgba(0,0,0,0.2);
 	padding: 20px 0;
 	margin-bottom: 0;
+	border-width: 0;
 }
 .navbar-brand {
 	padding-top: 0;
